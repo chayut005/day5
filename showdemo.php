@@ -10,6 +10,7 @@ $dbname = "it64309010005";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
+mysqli_set_chatset($conn,"utf8");
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
