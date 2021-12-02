@@ -29,13 +29,10 @@ if ($_SESSION['username']==''){
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="da1.php">Link</a>
+        <a class="nav-link" href="da1.php">novel</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="da2.php">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Loginout.php">Loginout</a>
+        <a class="nav-link" href="da2.php">novel2</a>
       </li>    
     </ul>
   </div>  
